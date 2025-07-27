@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>SokoShoes</title>
+</head>
+<body>
+    <header>
+        <div class="barre_haute">
+            <div class="barre_menu">
+                <p class="logo" >Soko<span>Sneakers</span></p>
+                <ul id="menu">
+                    <li>
+                        <input type="text" id="searchInput" placeholder="Rechercher... ">
+                    <!-- <button id="search-button">Search</button> -->
+                        <button onclick="searchText()"><img src="image/search_icon_150668.png" alt=""></button>
+                        <div id="search-results"></div>
+                    </li>
+                    <li><a href="formulaire.html"></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+        
+
+
+
+
+    <section class="section_produits">
+        <div class="produits">
+            
+            
+            <div class="carte">
+                <div class="img"> <img src="image/Air_Jordan_11_noir-rouge.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Air Jordan 11 Bred</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+            
+            
+            
+            
+            
+
+
+            <div class="carte">
+                <div class="img"> <img src="image/New_Balance.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">New Balance 550</div>
+                <div class="box">
+                    <div class="prix"></div>
+                   <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+            <div class="carte">
+                <div class="img"> <img src="image/New_Balance_550.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">New Balance X FIGS 996</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+
+            <div class="carte">
+                <div class="img"> <img src="image/New_Balance_9060.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">New Balance 9060</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+            
+
+            <div class="carte">
+                <div class="img"> <img src="image/Nike_Air_Force_1_07_LV8_Utility.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Nike Air Force one 07 LV8 Utility</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+            <div class="carte">
+                <div class="img"> <img src="image/Nike_Air_Force_1_edition_speciale-30ans(1).jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Nike Air Force one edition speciale 30ans</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+
+            <div class="carte">
+                <div class="img"> <img src="image/Nike_Air_Force_1_LV8_Quilted_Beige(1).jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Nike Air Force one LV8 Quilted</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+
+            <div class="carte">
+                <div class="img"> <img src="image/Nike_Air_Force_1_LV8_Quilted_Black.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Nike Air Force one LV8 Quilted</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+
+            <div class="carte">
+                <div class="img"> <img src="image/Nike_Air_Force_1_LV8_Quilted_noir.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Nike Air Force one LV8 Quilted</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+            <div class="carte">
+                <div class="img"> <img src="image/Nike_Air_Force_1_LV8_Quilted_Vert-fonce.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Nike Air Force one LV8 Quilted</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+
+            <div class="carte">
+                <div class="img"> <img src="image/Nike_Air_Force_1_noir-gris-blanc(1).jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Nike Air Force one</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+            <div class="carte">
+                <div class="img"> <img src="image/Nike_Air_Force_1_One-of-the-Ones.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Nike Air Force One of The Ones</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+
+            <div class="carte">
+                <div class="img"> <img src="image/Nike_Air_Force_1_tricolor.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Nike Air Force one</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+
+            <div class="carte">
+                <div class="img"> <img src="image/Nike_Air_Jordan_1_retro_high_OG.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Nike Air Jordan 1 Retro high OG</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+
+            <div class="carte">
+                <div class="img"> <img src="image/Nike_Air_Max_Plus.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Nike Air Max Plus</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+
+            <div class="carte">
+                <div class="img"> <img src="image/Nike_Air_Max_Plus_TN.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Nike Air Max Plus TN</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+            <div class="carte">
+                <div class="img"> <img src="image/Nike_Air_Max_Plus_TN_AMRS_blanc-noir.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Nike Air Max Plus TN AMRS</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+
+            <div class="carte">
+                <div class="img"> <img src="image/Nike_Air_Max_Plus_TN_AMRS_blue-blanc.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Nike Air Max Plus TN AMRS</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+            <div class="carte">
+                <div class="img"> <img src="image/Nike_Air_Max_Plus_TN_AMRS_jaune-noir.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Nike Air Max Plus TN AMRS</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+            <div class="carte">
+                <div class="img"> <img src="image/Nike_Air_Max_Plus_TN_AMRS_rouge-blanc.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Nike Air Max Plus TN AMRS</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+
+            <div class="carte">
+                <div class="img"> <img src="image/Nike_virgule-Nike_awoosh.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Nike virgule Nike swoosh</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+
+            <div class="carte">
+                <div class="img"> <img src="image/Puma_Suede_XL_Blue-Blanc.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Puma Suede XL</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+
+            <div class="carte">
+                <div class="img"> <img src="image/Puma_Suede_XL_Noire-Blanc.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Puma Suede XL</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+            <div class="carte">
+                <div class="img"> <img src="image/Sneakers_Dior_B30_CD.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Sneakers Dior B30 CD</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+
+            <div class="carte">
+                <div class="img"> <img src="image/Sneakers_Louis_Vuitton_LV_Trainer.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Sneakers Louis Vuitton LV Trainer</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+
+            <div class="carte">
+                <div class="img"> <img src="image/Sneakers_Louis_Vuitton_X_Air_Force_1.jpg" alt=""> </div>
+                <div class="desc">Shoes</div>
+                <div class="titre">Sneakers Louis Vuitton X Air Force one</div>
+                <div class="box">
+                    <div class="prix"></div>
+                    <button class="showBtn" id="achat">BUY</button>
+                </div>
+            </div>
+
+            
+
+            
+
+            
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <button onclick="scrollToTop()" id="topBtn">Retour en haut</button>
+    <div id="overlay">
+        <div id="platform">
+            <h1>Contacts</h1>
+        <div class="input-box">
+            <h2>Email:<a href="mailto:iyizirewenny004@gmail.com">iyizirewenny004@gmail.com</a></h2>
+        </div>
+        <div class="input-box">
+            <h2>Tel:<span>+25768260328</span></h2>
+        </div>
+        <div class="input-box">
+            <h2>Autre:   <a href="https://wa.me/25768260328">Contacter sur Whatsapp</a></h2>
+        </div>
+        <!--<div class="input-box">
+            <button class="login-btn"><a href="https://wa.me/25768260328">Retour</a></button>
+        </div>-->
+            <a><button id="backBtn" class="login-btn">Retour</button></a>
+
+        </div>
+    </div>
+    
+
+
+      <footer>
+        <h1>Contact<span> Us</span></h1>
+    <ul>
+        <li><span>E-Mail:</span>iyizirewenny@gmail.com</li>
+        <li><span>Tel:</span>+25768260328</li>
+    </ul>
+        <p>&copy; 2025 Ma page web</p>
+    </footer>
+
+
+<script>
+    function searchText1() {
+            const input = document.getElementById("searchInput").value.trim();
+    
+            if (!input) return;
+    
+            //supprimer les anciennes surbrillances
+            document.querySelectorAll('mark').forEach(mark => {
+                const parent = mark.parentNode;
+                parent.replaceChild(document.createTextNode(mark.textContent),mark);
+                parent.normalize();
+            });
+    
+            const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+            let firstMatch = null;
+    
+            while (walker.nextNode()) {
+                const node = walker.currentNode;
+                const parent = node.parentNode;
+    
+                if (!node.nodeValue.toLowerCase().includes(input.toLowerCase()))
+                continue;
+    
+                const regex = new RegExp(`(${input})`,'gi');
+                const highlightedHTML = node.nodeValue.replace(regex, '<mark>$1</mark>');
+                const temp = document.createElement("span");
+                temp.innerHTML = highlightedHTML;
+    
+                parent.replaceChild(temp, node);
+    
+                if (!firstMatch) {
+                    firstMatch = temp.querySelector('mark');
+                }
+            }
+    
+            //defilement fluide vers le premier mot trouve
+            if (firstMatch) {
+                firstMatch.scrollIntoView({
+                    behavior: "smooth",
+                    block: "center"
+                });
+            } else {
+                alert("Mot non trouve... ");
+            }
+        }
+    function searchText() {
+        const input = document.getElementById("searchInput").value.toLowerCase();
+        const bodyText = document.body.innerText.toLowerCase();
+
+        if (bodyText.includes(input)) {
+            searchText1();
+        } else {
+            alert("Mot non trouve...");
+        }
+    }
+    // Affiche le button quand on descend 
+    window.onscroll = function() {
+            const btn= document.getElementById("topBtn");
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                btn.style.display = "block";
+            }
+            else {
+                btn.style.display = "none";
+            }
+        };
+        // Fonction de scroll vers le haut 
+        function scrollToTop() {
+            window.scrollTo({top: 0, behavior: "smooth"});
+        }
+    
+    
+    const showBtn = document.querySelectorAll('.showBtn');
+    const overlay = document.getElementById('overlay');
+    const backBtn = document.getElementById('backBtn');
+
+   showBtn.forEach(btn => {
+        btn.addEventListener('click', () => {
+      overlay.style.visibility = 'visible';
+});
+});
+
+    backBtn.addEventListener('click', () => {
+      overlay.style.visibility = 'hidden';
+});    
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
